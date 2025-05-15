@@ -1,0 +1,128 @@
+# 🚗 Car Sales Dashboard
+
+An interactive Streamlit app for visualizing and analyzing car sales data from a CSV file. It provides insights like total sales, top brands, popular models, price trends, and more.
+
+---
+
+## 📌 Features
+
+- 📂 Upload your own car sales CSV file
+- 🎯 Filter by **Brand** and **Date Range**
+- 📊 View **Total Sales**, **Growth %**, and **Trends**
+- 🏆 See **Top Brands** by sales and **Most Popular Models**
+- 💰 Analyze **Average Car Prices**
+- 📈 Visualize **Price Distribution** and **Correlations**
+- 🗺️ Display sales locations on a map (if coordinates exist)
+- 📤 Export filtered data as CSV
+
+---
+
+## 📝 Required CSV Format
+
+Your CSV must contain at least the following columns:
+
+| Column      | Description                          |
+|-------------|--------------------------------------|
+| `Date`      | Sale date (e.g. 2024-01-15)          |
+| `Brand`     | Car brand (e.g. Toyota, Ford)        |
+| `Model`     | Car model (e.g. Camry, Civic)        |
+| `Price`     | Sale price (numeric)                 |
+
+**Optional columns (for map visualization):**
+
+- `Latitude` or similar (`lat`, `latitudes`)
+- `Longitude` or similar (`lng`, `lon`, `long`)
+
+The app will automatically detect and rename these if found.
+
+---
+
+## 🖼️ Visualizations Included
+
+- **📈 Total Sales Over Time** (weekly/monthly)
+- **📊 Sales Growth Percentage**
+- **🏆 Top Brands by Total Sales**
+- **💰 Average Car Price by Brand**
+- **🚘 Top 10 Most Popular Models**
+- **📊 Car Price Distribution Histogram**
+- **📉 Correlation Heatmap**
+- **🗺️ Sales Location Map**
+- **📥 Export Button for Filtered Data**
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/car-sales-dashboard.git
+cd car-sales-dashboard
+```
+
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Or manually install the main packages:
+
+```bash
+pip install streamlit pandas matplotlib seaborn
+```
+
+### 3. Run the app
+
+```bash
+streamlit run app.py
+```
+
+> Make sure your CSV file follows the expected format.
+
+---
+
+## 📤 Exporting Data
+
+Filtered results can be downloaded directly from the dashboard via the **Download as CSV** button.
+
+---
+
+## 🧠 How It Works
+
+- Uses `@st.cache_data` to load CSV efficiently.
+- Automatically renames `Price` to `car_prices`.
+- Filters out invalid or missing `Date` entries.
+- Detects latitude/longitude columns for map use.
+- Responsive error messages for user input issues.
+
+---
+
+## 📸 Screenshots
+
+> _You can include screenshots or GIFs of the dashboard UI here._
+
+---
+
+## 📃 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+---
+
+## 👨‍💻 Author
+
+**Your Name**  
+GitHub: [@yourusername](https://github.com/yourusername)
+
+---
+
+## ⭐ Support
+
+If you find this project useful, please ⭐ star this repo!
+
+---
+
+## 🙋 Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
