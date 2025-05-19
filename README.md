@@ -58,7 +58,7 @@ This project explores a comprehensive dataset on car sales, applying data proces
 
 ## 🙏 Acknowledgments
 
-Special thanks to **Mohd Raiyyan** for his support and collaboration on this project. His expertise greatly contributed to the success and depth of analysis in this work.
+Special thanks to **Eng.Baraa AbouSallut** for his support and collaboration on this project. His expertise greatly contributed to the success and depth of analysis in this work.
 
 ---
 
