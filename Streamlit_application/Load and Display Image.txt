@@ -1,0 +1,5 @@
+from PIL import Image
+
+# Load and display image
+cover_image = Image.open("car_cover.jpg")
+st.image(cover_image, use_column_width=True)
