@@ -1,4 +1,4 @@
-# Predicting-Car-Prices-with-Data-Analysis-and-Machine-Learning
+  # Car Sales Analysis & prediction
 Welcome to the GitHub repository for my project, "Predicting Car Prices with Data Analysis and Machine Learning." In this project, I embarked on a journey through the various stages of data science and machine learning to create a predictive model for automobile prices. Below, I outline the key stages of this project:
 
 **1. Collecting and Reading Data:**
